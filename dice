@@ -1,0 +1,18 @@
+import random
+
+
+dice = random.randint(1,6)
+guess = input("Whats your guess? 1-6:")
+
+guess = int(guess)
+
+
+if guess == dice:
+    print("Dice Roll:" + str(dice))
+    print ("Your:" + str(guess))
+    print(" You are Correct ")
+
+else:
+    print("Dice Roll:" + str(dice))
+    print ("Your:" + str(guess))
+    print("you're wrong") 
